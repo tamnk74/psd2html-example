@@ -1,0 +1,119 @@
+/* iPad */
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape){
+	.signle-slider .carousel-caption{
+   	 bottom: 30%;
+	}
+	.slide-down {
+	  bottom: 30px;
+	}
+	.works-tabs h1,
+	.progress-bars h1 {
+		font-size: 28px;
+	}
+	.progressbar-area {
+	  padding-top: 20px;
+	}
+}
+/* sm */
+@media (min-width: 768px) and (max-width: 991px) {
+	.tabs-area ul li{
+		width: 100%;
+		text-align: center;
+	}
+	.signle-slider .carousel-caption{
+   	 bottom: 15%;
+	}
+	.signle-slider .carousel-caption h1 {
+		font-size: 30px;
+	}
+	.signle-slider .carousel-caption p {
+		margin-top: 20px;
+	}
+	.slide-down {
+		bottom: 10px;
+		font-size: 30px;
+		left: 40%;
+		position: absolute;
+	}
+}
+/* xs */
+@media (max-width: 767px) {
+    .carousel-caption, .slide-down {
+		display: none;
+	}
+	.slider-area .slide a.carousel-control{
+		top: 30%;
+		font-size: 30px;
+		line-height: 50px;
+		height: 50px;
+	}
+	button.navbar-toggle {
+	  background-color: #fff;
+	  border-radius: 0;
+	}
+	.navbar-toggle .icon-bar {
+	  background-color: #333;
+	}
+	.header-area .container {
+	  position: relative;
+	}
+	.logo {
+	  padding-top: 0;
+	}
+	.menu-area {
+	  float: none;
+	  left: 25%;
+	  position: absolute;
+	  top: 0;
+	  width: 75%;
+	}	
+	.menu-area ul.nav {
+	  margin: 0;
+	  background-color: #dd374d;
+	}	
+	.menu-area ul.nav li a {
+		border-bottom: 1px solid #666;
+		margin: 0;
+		padding: 15px;
+	}
+	.menu-area ul.nav li:last-child a {
+		border-bottom: 0px solid #666;
+	}
+	.menu-area ul.nav li:hover a {
+		background-color: #333;
+	}
+	.tabs-area ul li{
+		width: 100%;
+		text-align: center;
+	}
+	.single-portfolio img{
+        width: 100%;
+    }
+	.googleMap-content > i {
+		left: 40%;
+	}
+}
+/* 320px to 568 px landscape*/
+@media (min-width: 320px) and (max-width: 568px) and (orientation: landscape){
+    .single-portfolio img{
+        width: 100%;
+    }
+    .counter-area{
+        padding: 0;
+    }
+	.googleMap-content > i {
+		left: 44%;
+	}
+}
+/* 375px to 667 px landscape*/
+@media (min-width: 375px) and (max-width: 667px) and (orientation: landscape){
+	.portfolio-item {
+	  width: 50%;
+	}
+	.counter-area {
+	  padding: 0;
+	}
+	.googleMap-content > i {
+		left: 45%;
+	}
+}
